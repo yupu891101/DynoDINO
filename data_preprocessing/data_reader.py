@@ -10,7 +10,7 @@ import numpy as np
 import SimpleITK as Sitk
 from tqdm.auto import tqdm
 
-from dynodino.utils.file_utils import folder_validate
+from utils.file_utils import folder_validate
 
 logger = getLogger(__name__)
 

@@ -8,12 +8,12 @@ from torch.utils.data import Dataset
 from torchvision import tv_tensors
 from torchvision.transforms import v2
 
-from dynodino.utils.file_utils import extract_data_file, folder_validate
-from dynodino.utils.utils import chunk_list, file_downloader
+from utils.file_utils import extract_data_file, folder_validate
+from utils.utils import chunk_list, file_downloader
 
 from .data_reader import msd_base_data_reader
 
-type TaskNames = Literal[
+TaskNames = Literal[
     "Task01_BrainTumour",
     "Task02_Heart",
     "Task03_Liver",

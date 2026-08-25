@@ -15,12 +15,12 @@ from torchvision import tv_tensors
 from torchvision.transforms import v2
 from tqdm.auto import tqdm
 
-from dynodino.datasets.data_reader import nrrd_to_npy
-from dynodino.datasets.preprocess_lib.alignment_lib.wawtace_alignment import (
+from data_preprocessing.data_reader import nrrd_to_npy
+from data_preprocessing.preprocess_lib.alignment_lib.wawtace_alignment import (
     parallel_processing_pipeline,
 )
-from dynodino.utils.file_utils import extract_data_file, folder_validate
-from dynodino.utils.utils import chunk_list, file_downloader
+from utils.file_utils import extract_data_file, folder_validate
+from utils.utils import chunk_list, file_downloader
 
 DATA_URL = (
     "https://zenodo.org/records/12741586/files/ct_scans_1_4_wawtace_09_05_24.zip?download=1",

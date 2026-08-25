@@ -8,7 +8,7 @@ from typing import Any
 import numpy as np
 from tqdm import tqdm
 
-from dynodino.datasets.data_reader import nii_to_npy, nrrd_to_npy
+from data_preprocessing.data_reader import nii_to_npy, nrrd_to_npy
 
 from .alignment_utils import CTData, save_result_to_npy, wawtace_slice_matching, simple_slice_matching
 

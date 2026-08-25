@@ -14,11 +14,11 @@ from torchvision import tv_tensors
 from torchvision.transforms import v2
 from tqdm.auto import tqdm
 
-from dynodino.datasets.preprocess_lib.alignment_lib.cect_alignment import (
+from data_preprocessing.preprocess_lib.alignment_lib.cect_alignment import (
     parallel_processing_pipeline,
 )
-from dynodino.utils.file_utils import extract_data_file, folder_validate
-from dynodino.utils.utils import chunk_list, file_downloader
+from utils.file_utils import extract_data_file, folder_validate
+from utils.utils import chunk_list, file_downloader
 
 DATA_URL = (
     "https://download.scidb.cn/download?fileId=cfdd5e37e35a013dc0015aa361531b01&path=/V4/CECT.tar&fileName=CECT.tar"
