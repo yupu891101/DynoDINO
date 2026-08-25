@@ -1,0 +1,3 @@
+[submodule "MedDINOv3"]
+	path = MedDINOv3
+	url = https://github.com/yupu891101/MedDINOv3.git
