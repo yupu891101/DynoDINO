@@ -32,9 +32,9 @@ DATA_URL = (
 )
 TUMOR_MASK_FOLDER = "tumor_masks_wawtace_v1_08_05_2024"
 CT_NII_FOLDER = "ct_nii_files"
-CT_NPY_FOLDER = "new_ct_npy_files"
+CT_NPY_FOLDER = "ct_npy_files"
 LABEL_NII_FOLDER = "label_nii_files"
-LABEL_NPY_FOLDER = "new_label_npy_files"
+LABEL_NPY_FOLDER = "label_npy_files"
 META_INFO_NAME = "meta_info.csv"
 FOLD_LIST_NAME = "fold_list.json"
 

@@ -24,8 +24,8 @@ DATA_URL = (
     "https://download.scidb.cn/download?fileId=cfdd5e37e35a013dc0015aa361531b01&path=/V4/CECT.tar&fileName=CECT.tar"
 )
 META_DATA_URL = "https://download.scidb.cn/download?fileId=e0af91f0f91a3c20b3a8779f7dc03352&path=/V4/patient_data.csv&fileName=patient_data.csv"
-CT_NPY_FOLDER = "new_ct_npy_files"
-LABEL_NPY_FOLDER = "new_label_npy_files"
+CT_NPY_FOLDER = "ct_npy_files"
+LABEL_NPY_FOLDER = "label_npy_files"
 META_INFO_NAME = "meta_info.csv"
 FOLD_LIST_NAME = "fold_list.json"
 METADATA_NAME = "patient_data.csv"
