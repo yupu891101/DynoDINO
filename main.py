@@ -87,7 +87,9 @@ def prepare_dataset(
     kwargs["data_root"] = data_root
 
     kwargs_string = ", ".join(
-        f"{key}={value!r}"
+        f"{key}={str(value)!r}"
+        if isinstance(value, Path)
+        else f"{key}={value!r}"
         for key, value in kwargs.items()
     )
 

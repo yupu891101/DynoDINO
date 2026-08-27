@@ -173,7 +173,11 @@ def convert_images(
                 channel_pattern,
             )
 
-            channel_number = channel_idx + 1
+            channel_number = (
+                channel_idx
+                if config["num_channels"] == 1
+                else channel_idx + 1
+            )
 
             output_path = output_dir / (
                 f"{config['image_prefix']}_"
